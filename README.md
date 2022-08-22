@@ -75,11 +75,11 @@ Disable firewall rule for:
 Disable the following:
 * Internet Explorer 11
 * Work Folders Client
-* NET Framework 3.5
-* NET Framework 4.7
 
 Enable the following:
 * Hyper-V
+* NET Framework 3.X
+* NET Framework 4.X
 
 ## Task Scheduler
 * Task Scheduler > Disable Edge
