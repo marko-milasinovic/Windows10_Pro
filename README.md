@@ -124,7 +124,7 @@ choco install mkvtoolnix
 
 
 * [Adobe Reader](https://get.adobe.com/reader/download?os=Windows+10&name=Reader+DC+2022.002.20191+English+Windows%2864Bit%29&lang=en&nativeOs=Windows+10&accepted=&declined=mss%2Cmsc%2Ccr&preInstalled=&site=otherversions) (Freeware) - Propriatery pdf reader
- * Disable update service after install
+  * Disable update service after install
 
 ### Browsers
 * [Chrome](https://www.google.com/chrome/) (Freeware) - made by Google, based on the Chromium engine
