@@ -92,14 +92,28 @@ Abbreviations:
 
 ## DefaultApplications
 * [Chocolatey](https://chocolatey.org/install) (FOSS) - software management solution
-  * ```
+```
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-    ```
+```
 * [MPV - github](https://github.com/mpv-player/mpv) (FOSS) - optimised and simple media player
   * [MPV - chocolatey](https://community.chocolatey.org/packages/mpv) 
-  * ```
-    choco install mpv
-    ```
+```
+choco install mpv
+```
+* [Ruby - chocolatey](https://community.chocolatey.org/packages/ruby) 
+```
+choco install ruby
+```
+* [ffmpeg](https://ffmpeg.org/download.html) (FOSS) - command line multimedia framework (a complete, cross-platform solution to record, convert and stream audio and video)
+```
+choco install ffmpeg
+```
+* [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows) (FOSS) - gui for working with Matroska files [gitlab](https://gitlab.com/mbunkus/mkvtoolnix)
+```
+choco install mkvtoolnix
+```
+
+
 * [Clementine](https://github.com/clementine-player/Clementine/releases/latest) (FOSS) - a "winamp" style music player
 * [Greenshot](https://getgreenshot.org/downloads) (FOSS) - A screenshot tool, to use press "Prt Scr"
 * [qimgv](https://github.com/easymodo/qimgv/releases/latest) (FOSS) - Image viewer
@@ -108,7 +122,7 @@ Abbreviations:
 * [Revo Uninstaller](https://www.revouninstaller.com/start-freeware-download/) (Shareware) - advanced program uninstaller
 * [7-zip with Zstandard](https://github.com/mcmilk/7-Zip-zstd/releases/latest) - file archiver with additional functions (eg. hash verification)
 
- 
+
 * [Adobe Reader](https://get.adobe.com/reader/download?os=Windows+10&name=Reader+DC+2022.002.20191+English+Windows%2864Bit%29&lang=en&nativeOs=Windows+10&accepted=&declined=mss%2Cmsc%2Ccr&preInstalled=&site=otherversions) (Freeware) - Propriatery pdf reader
  * Disable update service after install
 
@@ -124,34 +138,23 @@ Abbreviations:
 ## Intel drivers
 * [Intel's gpu driver](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html) (Freeware) - For the specific gpu line
 
-## Security / Peer clients
+## File transfer
 * [FileZilla](https://filezilla-project.org/) 
 
 ## Programming
-* [Pyhon + pip](https://www.python.org/downloads/windows/) (FOSS) - python with a software management solution
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - x86 AMD64/Intel64 full virtualization
-* [NodeJS](https://nodejs.org/en/download/) - a JavaScript runtime built on Chrome's V8 JavaScript engine
-* [XAMPP](https://www.apachefriends.org/download.html) - Apache distribution containing MariaDB, PHP, and Perl
 * [Anaconda3](https://www.anaconda.com/products/individual) - package / environment manager,  Python3 distribution with 1,500+ open source packages
-* [IntelliJ Idea](https://www.jetbrains.com/idea/) - for Java, with assistance for a variety of other languages such as SQL, JPQL, HTML, JavaScript
-* [WebStorm](https://www.jetbrains.com/webstorm/) - for JavaScript and related technologies
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - x86 AMD64/Intel64 full virtualization
 * [Visual Studio Code](https://github.com/VSCodium/vscodium/releases/latest) (FOSS) - JavaScript, TypeScript, Node.js (C++, C#, Java, Python, PHP, Go, .NET, Unity)
-  
+* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (FOSS ?) - SSH, Telnet, and SFTP client, typically used for remote access to server computers over a network using the SSH protocol along with an xterm terminal emulator
+* [ImDIsk](https://www.ltr-data.se/opencode.html/#ImDisk) (FOSS) - virtual disk driver
+
+
 ## Utilities
 * [DeepL](https://appdownload.deepl.com/windows/0install/DeepLSetup.exe) (Freeware) - Auto translate tool
 * [Freeplane](https://github.com/freeplane/freeplane/releases) (FOSS) - Tools for mind mapping
 * [PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/install) (Microsoft) - Usefull windows tools
 * [HWmonitor](https://www.cpuid.com/softwares/hwmonitor.html) (Shareware) - general purpose hardware monitoring program
-* [ffmpeg](https://ffmpeg.org/download.html) (FOSS) - command line multimedia framework (a complete, cross-platform solution to record, convert and stream audio and video)
-  * ```
-    choco install ffmpeg
-    ```
-* [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows) (FOSS) - gui for working with Matroska files [gitlab](https://gitlab.com/mbunkus/mkvtoolnix)
 
-## Communication
-* [Telegram](https://desktop.telegram.org/) (Shareware) - unsecure chat app with phone contact synchronisation
-* [Discord](https://discord.com/download) (Shareware) - unsecure chat app with chat rooms
-* [Steam](https://store.steampowered.com/about/) (Shareware) - unsecure app
 
 ### File Explorer
 * Go to the Last Active window with a single click / Switch to last opened window
@@ -251,18 +254,8 @@ Start Menu > Services > Windows Update > Disable the following:
 
 
 ### Optional
-* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (FOSS ?) - SSH, Telnet, and SFTP client, typically used for remote access to server computers over a network using the SSH protocol along with an xterm terminal emulator
-* [ImDIsk](https://www.ltr-data.se/opencode.html/#ImDisk) (FOSS) - virtual disk driver
-* [Eclipse](https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-enterprise-java-and-web-developers) - mainly for Java Integrated Development Environment
-
-
-### Optional
 * [Waifu2x Caffe](https://github.com/lltcggie/waifu2x-caffe/releases/latest) (FOSS) - image denoiser & upscaler (slow, best used with Nvidia GPU's)
 * [Waifu2x Extension GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/latest) video & image denoiser & upscaler with multiple algorithms
-* [Ruby - chocolatey](https://community.chocolatey.org/packages/ruby) 
-* ```
-choco install ruby
-```
 * [other_video_transcoding](https://github.com/donmelton/other_video_transcoding) (FOSS) - highly efficient transcoding cli for h.264 to h.265
 * [Dandere2x](https://github.com/akai-katto/dandere2x/releases/latest) (FOSS) - efficient video upscaler that uses waifu2x and video compression technology
 
