@@ -31,7 +31,7 @@ Disable windows update in Registry (Set "start"=4)
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wuaserv
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\windefend ?
 Tools:
-* (NirSoft)[https://www.nirsoft.net/] (FOSS) - Registry tools
+* [NirSoft](https://www.nirsoft.net/) (FOSS) - Registry tools
 
 ### Services
 CMD: REGEDIT > HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
@@ -53,7 +53,7 @@ CMD: REGEDIT > HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
 
 ### Group policy
 Search > Edit group policy
-[admx GP wiki](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.ControlPanel::ForceClassicControlPanel)
+[admx GP wiki](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.ControlPanel::ForceClassicControlPanel) - Wiki for all group policy options
 Administrative Templates (Computers):
 * Configure Automatic Updates = DISABLED | Software\Policies\Microsoft\Windows\WindowsUpdate\AU
 * Allow Automatic Updates immediate installation = DISABLED | Software\Policies\Microsoft\Windows\WindowsUpdate\AU
