@@ -26,14 +26,12 @@ USB drive with at least 8GiB, final image file size on flash drive is ~4.8 GiB.
 * Automatically hide scroll bars in windows -> Uncheck
 
 ### Registry
+[NirSoft](https://www.nirsoft.net/) (FOSS) - Registry tools
+
 Disable windows update in Registry (Set "start"=4)
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WaaSMedicSvc
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wuaserv
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\windefend ?
-
-
-Tools:
-* [NirSoft](https://www.nirsoft.net/) (FOSS) - Registry tools
 
 ### Services
 CMD: REGEDIT > HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
